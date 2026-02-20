@@ -3,10 +3,10 @@ import json
 import os
 
 app = Flask(__name__)
-app.secret_key = 'super_secret_key'  # Change this to a secure key in production
+app.secret_key = 'BanditH412'  # Change this to a secure key in production
 
 DATA_FILE = 'blocked.json'
-ADMIN_KEYS = ['admin_key1', 'admin_key2']  # Define your admin keys here
+ADMIN_KEYS = ['BanditH412', 'Hatchson']  # Define your admin keys here
 
 # Load blocked data from file
 if os.path.exists(DATA_FILE):
